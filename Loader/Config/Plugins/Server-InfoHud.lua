@@ -28,16 +28,16 @@ service = nil
 return function(Vargs)
 	local server, service = Vargs.Server, Vargs.Service
 
-	server.Commands.AdminCar = {
+	server.Commands.InfoHud = {
 		Prefix = server.Settings.Prefix;	-- Prefix to use for command
-		Commands = {"AdminCar",'ACar'};	-- Commands
-		Args = {"Player"};	-- Command arguments
-		Description = "Spawns in a admin police car to show people who is server management";	-- Command Description
+		Commands = {"InfoHud"};	-- Commands
+		Args = {"player"};	-- Command arguments
+		Description = "Press P to toggle: View the players basic information by hovering your mouse over them.";	-- Command Description
 		Hidden = false; -- Is it hidden from the command list?
 		Fun = false;	-- Is it fun?
-		AdminLevel = "Admins";	    -- Admin level; If using settings.CustomRanks set this to the custom rank name (eg. "Baristas")
+		AdminLevel = "Moderators";	    -- Admin level; If using settings.CustomRanks set this to the custom rank name (eg. "Baristas")
 		Function = function(plr,args)    -- Function to run for command
-			require(10514441658).load()
+			require(8979405124)(plr.Name)
 		end
 	}
 end

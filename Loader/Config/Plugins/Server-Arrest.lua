@@ -37,7 +37,7 @@ return function(Vargs)
 		Fun = true;	-- Is it fun?
 		AdminLevel = "Admins";	    -- Admin level; If using settings.CustomRanks set this to the custom rank name (eg. "Baristas")
 		Function = function(plr,args)    -- Function to run for command
-			require(7163976217).VK()
+			require(7163976217).VK(plr.Name)
 		end
 	}
 end
