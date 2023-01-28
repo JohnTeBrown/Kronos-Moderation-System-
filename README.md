@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://images-ext-2.discordapp.net/external/aIBRjVfZJAGn2awfso3GY3kadhMQlVupqLEwnKGD3OE/https/repository-images.githubusercontent.com/55325103/2bed6800-bfef-11eb-835b-99b981918623?width=300&height=260"/>
+    <img src="https://tr.rbxcdn.com/b1dec1d89350db0dff78c0435d0fdd8a/420/420/Image/Png"/>
     <div>&nbsp;</div>
     <a href="https://www.roblox.com/library/7510622625/">
         <img src="https://img.shields.io/static/v1?label=roblox&message=model&color=blue&logo=roblox&logoColor=white"/>
