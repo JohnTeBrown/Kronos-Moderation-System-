@@ -12,7 +12,7 @@ Kronos is a community-maintained server moderation and management system created
 
 ## ✨ Installation
 
-📢 **New to Kronos? Don't worry it works just like adonis so take a look at our official quick start video [here](https://youtu.be/1f9x9gdxLjw) or read the unofficial setup guide [here](https://devforum.roblox.com/t/1535122).**
+📢 **New to Kronos? Don't worry it works just like adonis so take a look at the adonis official quick start video [here](https://youtu.be/1f9x9gdxLjw) or read the unofficial setup guide [here](https://devforum.roblox.com/t/1535122).**
 
 if you encounter a bug please use githubs issues feature and well get onto fixing it.
 
