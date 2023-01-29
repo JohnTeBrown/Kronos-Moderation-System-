@@ -29,19 +29,19 @@ if you encounter a bug please use githubs issues feature and well get onto fixin
 ### Method 3: Filesystem
 
 1. Download the repository to your computer's file system.
-2. Install and use a plugin like [Rojo](https://rojo.space/) to compile Adonis into a `rbxmx` file.
+2. Install and use a plugin like [Rojo](https://rojo.space/) to compile Kronos into a `rbxmx` file.
     If using Rojo, you can run `rojo build /path/to/adonis -o Adonis.rbxmx` to build an `rbxmx`.
 3. Import the compiled model file into Studio.
 
 ℹ️ **Note:** By default, loaders compiled from the repository have [`DebugMode`](#🔧-debug-mode) enabled.
 
-**⚠️ Method 3 compiles the _bleeding edge_ version of Adonis, which may be not fully tested and is highly unstable.**
+**⚠️ Method 3 compiles the _bleeding edge_ version of Kronos, which may be not fully tested and is highly unstable.**
 
-### ⚙️ Configuring Adonis
+### ⚙️ Configuring Kronos
 
-Once you've inserted the Adonis loader into your game, open `Adonis_Loader` > `Config` > `Settings`, and change `settings.DataStoreKey` to something absolutely random (eg. `"2fgi02e)^Q"`). This is for security as it prevents serverside tampering with Adonis's datastores.
+Once you've inserted the Kronos loader into your game, open `Kronos_Loader` > `Config` > `Settings`, and change `settings.DataStoreKey` to something absolutely random (eg. `"2fgi02e)^Q"`). This is for security as it prevents serverside tampering with Kronos's datastores.
 
-You may then edit the Settings module to configure Adonis to suit your game. Instructions and elaboration are provided within the Settings module.
+You may then edit the Settings module to configure Kronos to suit your game. Instructions and elaboration are provided within the Settings module.
 
 ### 🔧 Debug Mode
 
