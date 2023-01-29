@@ -1,42 +1,28 @@
 <div align="center">
     <img src="https://tr.rbxcdn.com/b1dec1d89350db0dff78c0435d0fdd8a/420/420/Image/Png"/>
     <div>&nbsp;</div>
-    <a href="https://www.roblox.com/library/7510622625/">
+    <a href="https://create.roblox.com/marketplace/asset/12295560471/MainModule">
         <img src="https://img.shields.io/static/v1?label=roblox&message=model&color=blue&logo=roblox&logoColor=white"/>
-    </a>
-    <a href="https://www.roblox.com/library/8612978896/">
-        <img src="https://img.shields.io/badge/roblox-nightly-blueviolet?logo=roblox"/>
-    </a>
-    <a href="https://github.com/Epix-Incorporated/Adonis/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/Epix-Incorporated/Adonis"/>
-    </a>
-    <a href="https://github.com/Epix-Incorporated/Adonis/releases">
-        <img src="https://img.shields.io/github/v/release/Epix-Incorporated/Adonis?label=version"/>
-    </a>
-    <a href="https://dvr.cx/discord">
-        <img src="https://img.shields.io/discord/81902207070380032?label=discord&logo=discord&logoColor=white"/>
     </a>
 </div>
 
 ---
 
-Adonis is a community-maintained server moderation and management system created for use on the Roblox platform.
+Kronos is a community-maintained server moderation and management system created for use on the Roblox platform.
 
 ## ✨ Installation
 
-📢 **New to Adonis? Take a look at our official quick start video [here](https://youtu.be/1f9x9gdxLjw) or read the unofficial setup guide [here](https://devforum.roblox.com/t/1535122).**
+📢 **New to Kronos? Don't worry it works just like adonis so take a look at our official quick start video [here](https://youtu.be/1f9x9gdxLjw) or read the unofficial setup guide [here](https://devforum.roblox.com/t/1535122).**
 
-If you get stuck, feel free to ask for assistance on our [Discord server](https://discord.gg/H5RvTP3).
+if you encounter a bug please use githubs issues feature and well get onto fixing it.
 
 ### Method 1 (recommended): Official Roblox Model
 
-1. [Take a copy](https://www.roblox.com/library/7510622625/) of the Adonis loader model from the Roblox Library.
-2. Insert the model into Studio using the Toolbox, and place it under `ServerScriptService`. (Do not leave it in the `Workspace`!)
+1. [Take a copy](https://create.roblox.com/marketplace/asset/12295560471/MainModule) of the Kronos MainModule model from the Roblox Library.
+2. Insert the model into Studio using the Toolbox, and make a script then require the MainModule in the script and place it under `ServerScriptService`. (Do not leave it in the `Workspace`!)
 
 ### Method 2: GitHub Releases
 
-1. Download the `rbxm` file snapshot from the [latest release](https://github.com/Epix-Incorporated/Adonis/releases/latest).
-2. Import the model file into Studio.
 
 ℹ️ **Note:** By default, snapshots included in releases have [`DebugMode`](#🔧-debug-mode) enabled.
 
@@ -59,18 +45,18 @@ You may then edit the Settings module to configure Adonis to suit your game. Ins
 
 ### 🔧 Debug Mode
 
-The Adonis loader provides a `DebugMode` option which will load a local copy of the `MainModule` rather than fetching the latest version. This could be useful if you are a contributor working on the `MainModule`, or want to maintain a custom version for your game. Debug mode expects the `MainModule` to share the same parent with the loader model (e.g. both should be in `ServerScriptService`). **By default, snapshots provided in releases have `DebugMode` enabled.**
+The Kronos loader provides a `DebugMode` option which will load a local copy of the `MainModule` rather than fetching the latest version. This could be useful if you are a contributor working on the `MainModule`, or want to maintain a custom version for your game. Debug mode expects the `MainModule` to share the same parent with the loader model (e.g. both should be in `ServerScriptService`). **By default, snapshots provided in releases have `DebugMode` enabled.**
 
 #### Toggling debug mode
 
-* Open `Adonis_Loader` > `Loader` > `Loader`
+* Open `Kronos_Loader` > `Loader` > `Loader`
 * Change `DebugMode` at the end of the `data` table to the desired value (e.g. `DebugMode = false`)
 
-* Official Adonis Loader: <https://www.roblox.com/library/7510622625/Adonis-Admin-Loader-Epix-Incorporated>
-* Official MainModule: <https://www.roblox.com/library/7510592873/Adonis-MainModule>
-* Nightly MainModule: <https://www.roblox.com/library/8612978896/Nightlies-Adonis-MainModule>
+* Official [SOON] Kronos Loader: <>
+* Official MainModule: <https://create.roblox.com/marketplace/asset/12295560471/MainModule>
 
 ### Reference
+Kronos Is Basically Adonis, Checkout the adonis docs if you get stuck!
 
 * 📄 Documentation: <https://github.com/Epix-Incorporated/Adonis/wiki>
 * 📘 User Manual: <https://github.com/Epix-Incorporated/Adonis/wiki/User-Manual-&-Feature-Showcase>
@@ -78,10 +64,12 @@ The Adonis loader provides a `DebugMode` option which will load a local copy of 
 
 ### Social
 
-* Discord Server: <https://discord.gg/H5RvTP3> or <https://dvr.cx/discord>
-* Roblox Group: <https://www.roblox.com/groups/886423>
+* Coming Soon
+* Coming Soon
+* Coming Soon
 
 ### Misc
+Checkout some of the adonis plugins and donor perks, adonis is what enables Kronos to exist support the devs!
 
 * Plugins Repository: <https://github.com/Epix-Incorporated/Adonis-Plugins>
 * Donor Perks Pass: <https://www.roblox.com/game-pass/1348327>
@@ -98,7 +86,7 @@ Read the [contributing guide](https://github.com/Epix-Incorporated/Adonis/blob/m
 
 Adonis is available under the terms of the MIT license. Read more details about the license [here](https://github.com/Epix-Incorporated/Adonis/blob/master/LICENSE).
 
-### Thank you to our contributors
+### Thank you to our previouse & current contributors
 
 [![contributors](https://contributors-img.web.app/image?repo=Epix-Incorporated/Adonis)](https://github.com/Epix-Incorporated/Adonis/graphs/contributors)
 
