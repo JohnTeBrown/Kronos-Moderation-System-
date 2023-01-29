@@ -53,7 +53,10 @@ The Kronos loader provides a `DebugMode` option which will load a local copy of 
 * Change `DebugMode` at the end of the `data` table to the desired value (e.g. `DebugMode = false`)
 
 * Official Kronos Loader: [SOON]
+* Official In-game Kronos Loader: <https://www.roblox.com/library/12311215643/Kronos-Loader>
 * Official MainModule: <https://create.roblox.com/marketplace/asset/12295560471/MainModule>
+
+The In-game loader can be inserted using the developer console or a serverside using require()
 
 ### Reference
 Kronos Is Basically Adonis, Checkout the adonis docs if you get stuck!
