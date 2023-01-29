@@ -52,7 +52,7 @@ The Kronos loader provides a `DebugMode` option which will load a local copy of 
 * Open `Kronos_Loader` > `Loader` > `Loader`
 * Change `DebugMode` at the end of the `data` table to the desired value (e.g. `DebugMode = false`)
 
-* Official [SOON] Kronos Loader: <>
+* Official Kronos Loader: [SOON]
 * Official MainModule: <https://create.roblox.com/marketplace/asset/12295560471/MainModule>
 
 ### Reference
